@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+    <script type="text/javascript" src="java.js" defer></script>
+    <title>Niagara Race Crafters Inc</title>
+</head>
+<body>
+    <header>
+    <div class="header-container">
+            <div class="logo">
+             <a href="https://nrcracing.com/">
+             <img src="https://nrcracing.com/site-uploads/1001360/Images/logo.png" alt="NCR">
+             </a>
+             </div>
+        <div class="leftheader">
+           <div class="hoursanchor">
+              <div class="icon">
+                <a href="#">
+                <i class="fa-solid fa-clock"></i>
+                </a>
+                </div>
+              <div class="openinghours">
+                <a aria-expanded="true" class="dropdownlist" data-toggle="dropdown" href="#">
+                 <p>Opening Hours</p>
+                </a>
+                <div class="timetop">
+                <a aria-expanded="true" class="dropdownlist" data-toggle="dropdown" href="#">
+                    <span class="set_monday_hours" id="t_hour">Tuesday 9:00 am - 5:30 pm</span>
+                </a>  
+                </div>
+                <a aria-expanded="true" class="dropdownlist" data-toggle="dropdown" href="#"></a>
+                <ul class="dropdown-menu top-hours" role="menu"> 
+                    <li>
+                    <strong>Monday</strong>
+                    <span class="set_monday_hours">By Appointment</span></li> 
+                    <li>
+                    <strong>Tuesday</strong>
+                    <span class="set_tuesday_hours">9:00 am - 5:30 pm</span></li> 
+                    <li>
+                    <strong>Wednesday</strong>
+                    <span class="set_wednesday_hours">9:00 am - 5:30 pm</span></li> 
+                    <li>
+                    <strong>Thursday</strong>
+                    <span class="set_thursday_hours">9:00 am - 5:30 pm</span></li> 
+                    <li>
+                    <strong>Friday</strong>
+                    <span class="set_friday_hours">9:00 am - 5:30 pm</span></li> 
+                    <li>
+                    <strong>Saturday</strong>
+                    <span class="set_saturday_hours">10:00 am - 2:00 pm</span></li> 
+                    <li>
+                    <strong>Sunday</strong>
+                    <span class="set_sunday_hours">Closed</span></li> 
+                </ul>
+            </div>
+        </div>
+        <div class="location">
+            <div class="locationicon">
+            <a href="#">
+            <i class="fa-solid fa-location-dot"></i>
+            </a>
+            </div>
+            <div class="location-address">
+                <a href="https://www.google.com/maps/place/Niagara+Race+Crafters+Inc/@43.215515,-79.126357,13z/data=!4m5!3m4!1s0x0:0x869530b81fa623d3!8m2!3d43.2155145!4d-79.1263566?hl=en" target="_blank" rel="nofollow">
+                <span class="set_address">7 Walker Rd. Virgil ON, Canada, L0S 1T0</span> </a>
+            </div>
+        </div>
+        <div class="call">
+            <div class="callicon">
+            <a href="#">
+            <i class="fa-solid fa-phone"></i>
+            </a>
+            </div>
+            <div class="anchor">
+                <a class="phone_sales" href="tel:905-468-0076">
+                <span class="set_phone_number">905-468-0076</span>
+                <span class="salesAndservices">Sales And Service</span> 
+            </a>
+            </div>
+        </div>
+        <div class="kawasaki">
+            <a href="/Kawasaki-Products/">
+                <img alt="Kmc Rivermark Logo" src="https://nrcracing.com/site-uploads/1001360/Images/kmc_rivermark_logo.png" loading="lazy"> 
+            </a>
+        </div>
+        </div>
+    </div>
+    
+    <div class="header-container-mob">
+        <div class="logo">
+             <a href="https://nrcracing.com/">
+             <img src="https://nrcracing.com/site-uploads/1001360/Images/logo.png" alt="NCR">
+             </a>
+        </div>
+
+        <div class="kawasaki-mob">
+            <a href="/Kawasaki-Products/">
+                <img alt="Kmc Rivermark Logo" src="https://nrcracing.com/site-uploads/1001360/Images/kmc_rivermark_logo.png" loading="lazy"> 
+            </a>
+        </div>
+       <div>    
+       <button type="button" class="mobile-nav-toggle" id="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Menu</span>        
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+       </button>
+
+       <ul class="primary-navigation" id="primary-navigation" data-visible="false">
+            <li class="dropdown-mob open" id="dropdown-mob">
+            <a href="#" class="dropdown-toggle-mob" id="dropdown-toggle-mob" role="button" aria-expanded="false" aria-controls="dropdown-mob">INVENTORY<i class="fa-solid fa-caret-down"></i></a>            
+            <ul class="dropdown-menu-mob" data-visible="false"> 
+                <li><a href="/Demonstrators/">Demonstrators </a></li>
+                <li><a href="/Kawasaki-Products/">New Kawasaki Motorcycles </a></li>
+                <li><a href="/Used/">Used </a></li>
+                <li><a href="/Featured-Inventory/">Featured Inventory </a></li>
+            </ul>
+            </li>
+            <li class="dropdown-mob open" id="dropdown-mob">
+            <a href="#" class="dropdown-toggle-mob" id="dropdown-toggle-mob" role="button" aria-expanded="false" aria-controls="dropdown-mob">FINANCE<i class="fa-solid fa-caret-down"></i></a>            
+            <ul class="dropdown-menu-mob" data-visible="false"> 
+                    <li><a href="/Finance-Center/">Finance Center </a></li>
+                    <li><a href="/Payment-Calculator/">Payment Calculator </a></li>
+            </ul>
+            </li>
+                <li><a href="https://nrcracing.com/NRC-Engine-Covers/">NRC ENGINE COVERS</a>
+            </li>    
+                
+            <li class="dropdown-mob open" id="dropdown-mob">
+                <a href="#" class="dropdown-toggle-mob" id="dropdown-toggle-mob" role="button" aria-expanded="false" aria-controls="dropdown-mob">PARTS & ACCESSORIES<i class="fa-solid fa-caret-down"></i></a>      
+                <ul class="dropdown-menu-mob" data-visible="false">                 
+                    <li><a href="/Parts-Request/">Parts Request </a></li>
+                    <li><a href="/NRC-Engine-Covers/">NRC Engine Covers </a></li>
+                    <li><a href="/Kawasaki-Accessories/">Kawasaki Accessories </a></li>
+                    <li><a href="/Parts-&-Accessories-Specials/">Parts & Accessories Specials </a> </li>
+            </ul>
+            </li>
+
+             <li class="dropdown-mob open" id="dropdown-mob">
+                    <a href="#" class="dropdown-toggle-mob" id="dropdown-toggle-mob" role="button" aria-expanded="false" aria-controls="dropdown-mob">SERVICE<i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown-menu-mob" data-visible="false"> 
+                    <li><a href="/Service-Center/">Service Center </a></li>
+                   </ul>
+            </li>
+                <li class="dropdown-mob open" id="dropdown-mob">
+                <a href="#" class="dropdown-toggle-mob" id="dropdown-toggle-mob" role="button" aria-expanded="false" aria-controls="dropdown-mob">DEALERSHIP<i class="fa-solid fa-caret-down"></i></a>
+                <ul class="dropdown-menu-mob" data-visible="false">  
+                        <li><a href="/About-Us/">About Us </a></li>
+                        <li><a href="/Contact-Us/">Contact Us </a></li>
+                </ul>
+                </li>
+            </ul>
+         </div>
+         </div>  
+        </div>
+
+    </header>
+
+    <nav id="navbar">
+        
+       <div class="navbar">
+        <ul class="navbarlist">
+            <li class="home">
+                <a href="https://nrcracing.com/"><i class="fa-solid fa-house-chimney"></i></a>
+            </li>
+            <li>
+              <a href="https://nrcracing.com/Inventory/">INVENTORY<i class="fa-solid fa-caret-down"></i></a>
+            <div class="dropdown">
+              <ul>
+                <li><a href="/Demonstrators/">Demonstrators </a></li>
+                <li><a href="/Kawasaki-Products/">New Kawasaki Motorcycles </a></li>
+                <li><a href="/Used/">Used </a></li>
+                <li><a href="/Featured-Inventory/">Featured Inventory </a></li>
+              </ul>
+            </div>
+            </li>
+            <li>
+                <a href="https://nrcracing.com/Finance/">FINANCE<i class="fa-solid fa-caret-down"></i></a>
+            <div class="dropdown">
+                <ul>
+                    <li><a href="/Finance-Center/">Finance Center </a></li>
+                    <li><a href="/Payment-Calculator/">Payment Calculator </a></li>
+                </ul>
+            </div>
+            </li>
+            <li>
+                <a href="https://nrcracing.com/NRC-Engine-Covers/">NRC ENGINE COVERS</a>
+            </li>
+            <li>
+                <a href="https://nrcracing.com/Parts-&-Accessories/">PARTS & ACCESSORIES<i class="fa-solid fa-caret-down"></i></a>
+            <div class="dropdown">
+                <ul>
+                    <li><a href="/Parts-Request/">Parts Request </a></li>
+                    <li><a href="/NRC-Engine-Covers/">NRC Engine Covers </a></li>
+                    <li><a href="/Kawasaki-Accessories/">Kawasaki Accessories </a></li>
+                    <li><a href="/Parts-&-Accessories-Specials/">Parts & Accessories Specials </a></li>
+                </ul>
+            </div>
+            </li>
+            <li>
+                <a href="https://nrcracing.com/Service/">SERVICE<i class="fa-solid fa-caret-down"></i></a>
+            <div class="dropdown">
+                <ul>
+                    <li><a href="/Service-Center/">Service Center </a></li>
+                </ul>
+            </div>
+            </li>
+            <li>
+                <a href="https://nrcracing.com/Dealership/">DEALERSHIP<i class="fa-solid fa-caret-down"></i></a>
+            <div class="dropdown">
+                <ul><li>
+                    <a href="/About-Us/">About Us </a></li><li>
+                    <a href="/Contact-Us/">Contact Us </a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+            <div class="nav-right hidden-xs">
+                <button class="pull-right btn btn-info shopping-cart" type="button">
+                <i class="fas fa-shopping-cart" aria-hidden="true">&nbsp;</i> &nbsp;<span class="total-items simpleCart_quantity">0</span></button>
+                <a class="search-desktop" href="" data-toggle="modal" data-target="#searchModal">
+                <i aria-hidden="true" class="fa fa-search">&nbsp;</i> Search</a>       
+            </div>
+       </div>
+</nav>
+
+    <main>
+     <div class="firstpart">
+      <div class="videobackground">
+        <video autoplay loop muted>
+            <source src="https://nrcracing.com/site-uploads/1001191/Video/motorcycle.mp4#t=40" type="video/mp4">
+        </video>
+      </div>
+      <div class="video-content">
+          <span class="videotext">Niagara Region's Exclusive Single Line<br>
+          <span class="VideoTextGreen">Kawasaki</span>
+          <span class="VideoTextWhite">Dealer</span>
+        </span>
+      <div class="videobtn">
+        <button><a href="www.nrcracing.com/Contact-Us/" target="_blank">
+        <i class="fa-solid fa-caret-right"></i>
+        <span class="videoBtnText">
+        <span class="videoBtnTextSpecial">Contact</span>
+        <span class="videobtntextwhite">NRC</span> 
+        </span>
+        </button>
+    </a>
+      </div>
+    </div>
+</div>
+     <div class="circledthumbs">
+        <button><a href="/NRC-Engine-Covers/" class="button-block-button1">
+        <span class="button-heading">NRC</span>
+        <span class="button-subheading">Engine Covers</span>
+        </a>    
+        </button>
+        <button><a href="/Kawasaki-Accessories/" class="button-block-button2">
+            <span class="button-heading">Authentic</span>
+            <span class="button-subheading">Accessories</span>
+            </a>    
+        </button>
+        <button><a href="/Service-Center/" class="button-block-button3">
+            <span class="button-heading">Service</span>
+            <span class="button-subheading">Center</span>
+            </a>    
+        </button>
+        <button><a href="/Finance-Center/" class="button-block-button4">
+            <span class="button-heading">Finance</span>
+            <span class="button-subheading">Center</span>
+            </a>    
+        </button>
+     </div>
+    
+    <div class="models-selection">
+      <div class="models-container">
+         <h1>
+            <span>Select <span class="gr">Your</span></span>
+            <span>RIDE!</span>
+         </h1>
+      <ul class="nav-models">
+       <li><a href="#Street">Street/Sport<i class="fa-solid fa-caret-right"></i></a></li>
+       <li><a class="active" href="#Supersport">Supersport<i class="fa-solid fa-caret-right"></i></a></li>
+       <li><a href="#Cruiser">Cruiser<i class="fa-solid fa-caret-right"></i></a></li>
+       <li><a href="#Touring">Touring<i class="fa-solid fa-caret-right"></i></a></li>
+       <li><a href="#DualPurpose">DualPurpose<i class="fa-solid fa-caret-right"></i></a></li>
+       <li><a href="#Motocross">Motocross<i class="fa-solid fa-caret-right"></i></a></li>
+       <li><a href="#Offroad">Offroad<i class="fa-solid fa-caret-right"></i></a></li>
+      </ul>
+      
+      <div class="street-sporting">
+        <img src="https://nrcracing.com/site-uploads/1001191/Images/2020_Street-Sport_updated.jpg" alt="Street" loading="lazy">
+      </div>
+
+      <div class="flexrow">
+        <a class="browse-btn" href="/Street-Sport/">Browse New<i class="fa-solid fa-caret-right"></i></a>
+        <a class="browse-btn" href="/Street-Sport-used/">Browse Used<i class="fa-solid fa-caret-right"></i></a>
+        <a class="browse-btn" href="/Street-Sport-Demonstrators/">Browse Demonstrators<i class="fa-solid fa-caret-right"></i></a>
+      </div>
+      
+    </div>       
+    </div>
+    <div class="slide-container">
+        <div class="carousel-btn">
+            <button class="carousel-btn prev"><i class="fa-solid fa-less-than"></i>
+            </button>
+            <button class="carousel-btn next"><i class="fa-solid fa-greater-than"></i></button>
+        </div>
+        <div>
+        <ul class="image-container">
+        <li class="slide" data-active><img src="https://nrcracing.com/site-uploads/1001360/Slider/kawasaki-slidr%201.jpg" alt="kawasaki-slidr 1.jpg"></li>   
+        <li class="slide"><img src="https://nrcracing.com/site-uploads/1001360/Slider/kawasaki-slider%202.jpg" alt="kawasaki-slider 2.jpg"></li>
+        <li class="slide"><img src="https://nrcracing.com/site-uploads/1001360/Slider/kawasaki-slider%203.jpg" alt="kawasaki-slider 3.jpg"></li>
+        <li class="slide"><img src="https://nrcracing.com/site-uploads/1001360/Slider/kx-250%201920X620.jpg" alt="kx-250 1920X620.jpg"></li>
+        <li class="slide"><img src="https://nrcracing.com/site-uploads/1001360/Slider/kx-250%20x%201920X620.jpg" alt="kx-250 x 1920X620.jpg"></li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <h1 class="titlebar">
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>what our <span class="gr">customers</span></span>
+            <span>say about us!</span>
+        </h1>
+        <div class="googlereviews">
+            <div class="car-review">
+                <button class="car-reviewprev"><i class="fa-solid fa-less-than"></i></button>
+                <button class="car-reviewnext"><i class="fa-solid fa-greater-than"></i></button>
+            </div>
+            <div class="item" data-active>
+            <p class="review-text">
+                Larry delivered my Kawasaki 800 Street last evening. Larry is a stand up gentleman with an 
+                old school flavour, and a robust and eager personality with great stories to tell. 
+                A consummate professional with an extremely high level of experience and knowledge with motorcycles and the Kawasaki brand...
+            </p>
+            <div class="review-meta">
+                <span class="review-author">Michael Whelan</span>
+                <span class="review-date">Oct 3, 2020</span>                
+            </div>
+            </div>
+            <div class="item" >
+                <p class="review-text">
+                    I feel I got great value for my time and money. Larry and his team went above 
+                    and beyond to accommodate my needs and budget. Ended up with a Z900 and 
+                    I love it! I will continue to support NRC despite them being almost two hours away                
+                </p>
+            <div class="review-meta">
+                <span class="review-author">Stephen</span>
+                <span class="review-date">Apr 26, 2020</span>                
+            </div>
+            </div>
+
+            <div class="item" >
+                <p class="review-text">
+                    Larry! You deserve all the credit in the world for your hard work and knowledge. 
+                    I am more then happy to have taken the recommendation for your company. 
+                    I will proudly say I bought my Ninja directly from you and that Niagara race crafters …                   
+                </p>
+            <div class="review-meta">
+                    <span class="review-author">Lorree Vandermeulen</span>
+                    <span class="review-date">Jun 15, 2020</span>                
+            </div>
+            </div>
+            </div>
+            <div class="links-rev">
+                <a class="readmorereviews" href="https://www.google.com/search?q=niagara+race+crafters&amp;sxsrf=ALeKk03VlZXx0tDMQLOSnXW2XG-aOQBzZQ%3A1621437644413&amp;ei=zCylYIXgGNCEabLIpPgK&amp;gs_ssp=eJzj4tZP1zcsM802ji9JN2C0UjWosLBMMTa1NLZISjFMTEo2SLECCplZmhobJFkYpiWaGRmnGHuJ5mUmpicWJSoUJSanKiQXJaaVpBYVAwAmnBal&amp;oq=niagara+race+craft&amp;gs_lcp=Cgdnd3Mtd2l6EAMYATIECCMQJzIICC4QxwEQrwEyAggAOgcIIxCwAxAnOgcIABBHELADUPRQWPRQYIJhaABwAXgAgAGiAYgBpgOSAQMwLjOYAQCgAQGqAQdnd3Mtd2l6yAEJwAEB&amp;sclient=gws-wiz#lrd=0x89d35938bd1abc0d:0x869530b81fa623d3,1,,," rel="nofollow" target="_blank">
+                <i class="fa-solid fa-caret-right"></i>read more reviews</a>
+                <a class="writereview" href="https://www.google.com/search?q=niagara+race+crafters&amp;sxsrf=ALeKk03VlZXx0tDMQLOSnXW2XG-aOQBzZQ%3A1621437644413&amp;ei=zCylYIXgGNCEabLIpPgK&amp;gs_ssp=eJzj4tZP1zcsM802ji9JN2C0UjWosLBMMTa1NLZISjFMTEo2SLECCplZmhobJFkYpiWaGRmnGHuJ5mUmpicWJSoUJSanKiQXJaaVpBYVAwAmnBal&amp;oq=niagara+race+craft&amp;gs_lcp=Cgdnd3Mtd2l6EAMYATIECCMQJzIICC4QxwEQrwEyAggAOgcIIxCwAxAnOgcIABBHELADUPRQWPRQYIJhaABwAXgAgAGiAYgBpgOSAQMwLjOYAQCgAQGqAQdnd3Mtd2l6yAEJwAEB&amp;sclient=gws-wiz#lrd=0x89d35938bd1abc0d:0x869530b81fa623d3,3,,,">
+                <i class="fa-solid fa-caret-right"></i>write a review</a>
+            </div>
+        </div>
+
+        <div class="last-sec-container">
+            <div class="last-sec-title">
+                <h1><i class="fa-solid fa-chevron-right"></i>
+                    Featured Vehicles
+                </h1>
+            </div>
+            <div class="slidewrapper">
+                <ul>
+                <li><a href="https://nrcracing.com/randoms/itemid/17561756/">
+                    <img loading="eager" width="200" photo_width="1200" photo_height="800" alt="Random Advertisment" src="https://www.equipmentsearch.com/uploadedimages/8645/17560659_2.jpg?width=200">
+                    <div class="thumbnailStatus text-center" id="inline-style-13">In Stock</div>    
+                </a>
+                <div>
+                    <span class="text-info center-block text-center">2022 Kawasaki KLX300R </span>
+                    <span class="text-info center-block text-center">
+                    <span>$7132.00</span> </span>
+                </div>
+                </li>
+                <li><a href="https://nrcracing.com/randoms/itemid/18174768/">
+                    <img loading="eager" width="200" photo_width="1200" photo_height="800" alt="Random Advertisment" src="https://www.equipmentsearch.com/uploadedimages/8645/18170750_8.jpg?width=200">                       
+                    <div class="thumbnailStatus text-center" id="inline-style-13">In Stock</div>    
+                </a>
+                <div>
+                    <span class="text-info center-block text-center">2022 Kawasaki VULCAN 900 CLASSIC </span>                    
+                    <span class="text-info center-block text-center">
+                    <span>$11562.00</span> </span>              
+                </div>
+                </li>
+                <li><a href="https://nrcracing.com/randoms/itemid/18174749/">
+                <img loading="eager" width="200" photo_width="1200" photo_height="800" alt="Random Advertisment" src="https://www.equipmentsearch.com/uploadedimages/8645/18170585.jpg?width=200">                        
+                <div class="thumbnailStatus text-center" id="inline-style-13">In Stock</div>        
+                </a>
+                <div>
+                    <span class="text-info center-block text-center">2022 Kawasaki  Z400 ABS CANDY LIME GREEN </span>                    
+                    <span class="text-info center-block text-center">
+                    <span>$7412.00</span> </span>                </div>
+                </li>
+                <li><a href="https://nrcracing.com/randoms/itemid/17561750/">
+                    <img loading="eager" width="200" photo_width="1200" photo_height="800" alt="Random Advertisment" src="https://www.equipmentsearch.com/uploadedimages/8645/17560644_1.jpg?width=200">                      
+                    <div class="thumbnailStatus text-center" id="inline-style-13">In Stock</div>    
+                </a>
+                <div>
+                    <span class="text-info center-block text-center">2022 Kawasaki KLX110R WITH AUTOMATIC CLUTCH </span>                   
+                    <span class="text-info center-block text-center">
+                    <span>$3452.00</span> </span>                
+                </div>
+                </li>
+                <li><a href="https://nrcracing.com/randoms/itemid/18174747/">
+                    <img loading="eager" width="200" photo_width="1200" photo_height="800" alt="Random Advertisment" src="https://www.equipmentsearch.com/uploadedimages/8645/18170581_1.jpg?width=200">                
+                </a>
+                    <div class="thumbnailStatus text-center" id="inline-style-13">In Stock</div>    
+                    <div>
+                    <span class="text-info center-block text-center">2022 Kawasaki  Z H2 ABS Special Edition with SKYHOOK Technology </span>                    
+                    <span class="text-info center-block text-center">
+                    <span>$24362.00</span> </span>                
+                </div>
+                </li>
+                <li><a href="https://nrcracing.com/randoms/itemid/17561756/">
+                    <img loading="eager" width="200" photo_width="1200" photo_height="800" alt="Random Advertisment" src="https://www.equipmentsearch.com/uploadedimages/8645/17560659_2.jpg?width=200">
+                    <div class="thumbnailStatus text-center" id="inline-style-13">In Stock</div>    
+                </a>
+                <div>
+                    <span class="text-info center-block text-center">2022 Kawasaki KLX300R </span>
+                    <span class="text-info center-block text-center">
+                    <span>$7132.00</span> </span>
+                </div>
+                </li>
+                <li><a href="https://nrcracing.com/randoms/itemid/18174768/">
+                    <img loading="eager" width="200" photo_width="1200" photo_height="800" alt="Random Advertisment" src="https://www.equipmentsearch.com/uploadedimages/8645/18170750_8.jpg?width=200">                      
+                    <div class="thumbnailStatus text-center" id="inline-style-13">In Stock</div>    
+                </a>
+                <div>
+                    <span class="text-info center-block text-center">2022 Kawasaki VULCAN 900 CLASSIC </span>                    
+                    <span class="text-info center-block text-center">
+                    <span>$11562.00</span> </span>              
+                </div>
+                </li>
+                <li><a href="https://nrcracing.com/randoms/itemid/18174749/">
+                <img loading="eager" width="200" photo_width="1200" photo_height="800" alt="Random Advertisment" src="https://www.equipmentsearch.com/uploadedimages/8645/18170585.jpg?width=200">                    
+                <div class="thumbnailStatus text-center" id="inline-style-13">In Stock</div>    
+                </a>
+                <div>
+                    <span class="text-info center-block text-center">2022 Kawasaki  Z400 ABS CANDY LIME GREEN </span>                    
+                    <span class="text-info center-block text-center">
+                    <span>$7412.00</span> </span>                </div>
+                </li>
+                <li><a href="https://nrcracing.com/randoms/itemid/17561750/">
+                    <img loading="eager" width="200" photo_width="1200" photo_height="800" alt="Random Advertisment" src="https://www.equipmentsearch.com/uploadedimages/8645/17560644_1.jpg?width=200">                    
+                    <div class="thumbnailStatus text-center" id="inline-style-13">In Stock</div>    
+                </a>
+                <div>
+                    <span class="text-info center-block text-center">2022 Kawasaki KLX110R WITH AUTOMATIC CLUTCH </span>                    
+                    <span class="text-info center-block text-center">
+                    <span>$3452.00</span> </span>                
+                </div>
+                </li>
+                <li><a href="https://nrcracing.com/randoms/itemid/18174747/">
+                    <img loading="eager" width="200" photo_width="1200" photo_height="800" alt="Random Advertisment" src="https://www.equipmentsearch.com/uploadedimages/8645/18170581_1.jpg?width=200">                </a>
+                <div>
+                    <span class="text-info center-block text-center">2022 Kawasaki  Z H2 ABS Special Edition with SKYHOOK Technology </span>                    
+                    <span class="text-info center-block text-center">
+                    <span>$24362.00</span> </span>                
+                </div>
+                </li>
+                </ul>
+            </div>
+        </div>
+
+<div class="circle-mobile">
+    <div class="circle-mobile-container">
+        <a class="circle-anchor" href="https://nrcracing.com/Kawasaki-Products/">
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="circleText">
+            <span class="circleTextSpecial">New Kawasaki </span> Motorcycles</span> 
+        </a>
+        <a class="circle-anchor" href="https://nrcracing.com/Demonstrators/">
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="circleText">
+            <span class="circleTextSpecial">Demonstrators</span> Inventory</span> 
+        </a>
+        <a class="circle-anchor" href="https://nrcracing.com/Used/">
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="circleText">
+            <span class="circleTextSpecial">Used </span> Inventory</span> 
+        </a>
+        <a class="circle-anchor" href="https://nrcracing.com/NRC-Engine-Covers/">
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="circleText">
+            <span class="circleTextSpecial">NRC </span> Engine Covers</span> 
+        </a>
+        <a class="circle-anchor" href="https://nrcracing.com/Kawasaki-Accessories/">
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="circleText">
+            <span class="circleTextSpecial">Authentic </span> Accessories</span> 
+        </a>
+        <a class="circle-anchor" href="https://nrcracing.com/Service-Center/">
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="circleText">
+            <span class="circleTextSpecial"> Service </span> Center</span> 
+        </a>
+        <a class="circle-anchor" href="https://nrcracing.com/Finance-Center/">
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="circleText">
+            <span class="circleTextSpecial">Finance </span> Center</span> 
+        </a>
+    </div>    
+</div>
+<div class="models-selection-mobile">
+    <div class="models-container-mobile">
+       <h1>
+          <span>Select <span class="gr">Your</span></span>
+          <span>RIDE!</span>
+       </h1>
+    <ul class="nav-models-mob">
+     <li><a href="#Street">Street/Sport<i class="fa-solid fa-angle-left"></i></a></li>
+     <li><a href="#Supersport">Supersport<i class="fa-solid fa-angle-left"></i></a></li>
+     <li><a href="#Cruiser">Cruiser<i class="fa-solid fa-angle-left"></i></a></li>
+     <li><a href="#Touring">Touring<i class="fa-solid fa-angle-left"></i></a></li>
+     <li><a href="#DualPurpose">DualPurpose<i class="fa-solid fa-angle-left"></i></a></li>
+     <li><a href="#Motocross">Motocross<i class="fa-solid fa-angle-left"></i></a></li>
+     <li><a href="#Offroad">Offroad<i class="fa-solid fa-angle-left"></i></a></li>
+</div>
+</div>
+
+    
+    
+    
+    
+    
+</main>
+
+<footer>
+<div class="footer">
+    <div class="contact-sec">
+        <h2>Niagara Race Crafters</h2>
+        <a href="https://www.google.com/maps/place/Niagara+Race+Crafters+Inc/@43.215515,-79.126357,13z/data=!4m5!3m4!1s0x0:0x869530b81fa623d3!8m2!3d43.2155145!4d-79.1263566?hl=en" rel="nofollow" target="_blank">
+        <span class="set_address">7 Walker Rd. Virgil ON, Canada, L0S 1T0</span></a>         
+    <div class="HL">&nbsp;</div>
+    <a href="tel:905-468-0076"> Phone: <span class="set_phone_number_footer">905-468-0076</span></a>
+    <div class="HL">&nbsp;</div>
+    <a href="/Contact-Us/" rel="nofollow">Map + Hours</a>
+    <div class="HL">&nbsp;</div>
+    <div class="face-insta">
+        <a href="https://www.facebook.com/niagararacecrafters/" rel="nofollow" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i> </a>
+        <a href="https://www.instagram.com/niagararacecrafters/" rel="nofollow" target="_blank">
+            <i class="fa-brands fa-instagram"></i></a>
+    </div>
+    </div>
+    <div class="quicklinks">
+    <h2>Quick Links</h2>
+        <a href="/">HOME</a>
+        <a href="/New-In-Stock/">New Inventory</a>
+        <a href="/Used/">Used Inventory</a>
+        <a href="/NRC-Engine-Covers/">NRC Engine Covers</a>
+        <a href="/Kawasaki-Products/">New Kawasaki Motorcycles</a>
+        <a href="/Finance-Center/">Finance Center</a>
+        <a href="/Parts-Request/">Parts Department</a>
+        <a href="/Service-Center/">Service Department</a>
+    </div>
+    <div class="online-shopping">
+        <h2>Online Shopping Policy</h2>
+        <a href="/Privacy-Policy/">Privacy Policy</a>
+        <a href="/Return-Policy/">Return Policy</a>
+        <a href="/Sales-Tax-Application/">Sales Tax Application</a>
+        <a href="/Shipping-And-Delivery-Information/">Shipping and Delivery Information</a>
+        <a href="/Terms-and-Conditions/">Terms and Conditions</a>
+    </div>
+    <div class="hours">
+        <h2>Hours</h2>
+        <p>monday</p>
+        <p class="set_monday_hours">By Appointment</p>
+        <div class="HL">&nbsp;</div>
+        <p>tuesday to friday</p>
+        <p class="set_friday_hours">9:00 am - 5:30 pm</p>
+        <div class="HL">&nbsp;</div>
+        <p>saturday</p>
+        <p class="set_saturday_hours">10:00 am - 2:00 pm</p>
+        <div class="HL">&nbsp;</div>
+        <p>sunday</p>
+        <p class="set_sunday_hours">Closed</p>
+        <div class="HL">&nbsp;</div>
+    </div>
+     <div class="locationfooter">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d186093.79267331847!2d-79.12632!3d43.215456!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x869530b81fa623d3!2sNiagara%20Race%20Crafters%20Inc!5e0!3m2!1sen!2seg!4v1661630108833!5m2!1sen!2seg" width="100%" height="80%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+    </div>
+    <div class="ScrollUp">
+        <button id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i></button>
+    </div>
+    <div class="footer-mob">
+       <div class="col-section">
+            <p>Contact Us</p> <br>
+            <p>Quick Links</p> <br>
+            <p>Opening Hours</p> <br>
+            <p>Location</p> <br>
+       </div>
+       <div class="social">
+            <a href="https://www.facebook.com/niagararacecrafters/" rel="nofollow" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i></a>        
+            <a href="https://www.instagram.com/niagararacecrafters/" rel="nofollow" target="_blank">
+            <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.theweathernetwork.com/eg?utm_campaign=WeatherWidget&amp;utm_source=nrcracing.com&amp;utm_medium=300x30&amp;utm_content=logo_home" rel="nofollow" target="_blank">
+            <i class="fa-solid fa-cloud"></i></a>
+       </div>
+       <div class="footer-bottom">
+        <div class="footer-bottom__elem footer-bottom__elem--links">
+            <span><a href="/Privacy-Policy/">Policy</a></span>
+            <span>|</span>
+            <span><a href="/Privacy-Policy/">Privacy</a></span> 
+            <span>|</span>
+            <span><a href="/Terms-and-Conditions/">Terms</a></span> 
+            <span>|</span> 
+            <span><a data-target="#Login-form" data-toggle="modal" data-whatever="@mdo" href="#" type="button"> Login</a></span>
+            <span class="copyright">Copyright© 2022 Niagara Race Crafters</span> "Inc."
+        </div>
+        <div class="mobilenav">
+            <div class="search-mobile">
+                <a class="search-mobile" data-target="#searchModal" data-toggle="modal" href="">
+                <i aria-hidden="true" class="fa fa-search">&nbsp;</i> </a>
+            </div>
+            <div class="shopping-cart-mobile">
+                <a class="shopping-cart" href="">
+                <i aria-hidden="true" class="fas fa-shopping-cart">&nbsp;</i></a>
+            </div>
+            <div class="times">
+            <button type="button" class="mobile-times-toggle" id="mobile-times-toggle" aria-controls="times-mobileversion" aria-expanded="false"><i class="fa-regular fa-clock"></i></button>
+                <ul class="times-mobileversion" id="times-mobileversion" data-visible="false" role="menu"> 
+                    <li>
+                    <strong>Monday</strong>
+                    <span class="set_monday_hours">By Appointment</span></li> 
+                    <li>
+                    <strong>Tuesday</strong>
+                    <span class="set_tuesday_hours">9:00 am - 5:30 pm</span></li> 
+                    <li>
+                    <strong>Wednesday</strong>
+                    <span class="set_wednesday_hours">9:00 am - 5:30 pm</span></li> 
+                    <li>
+                    <strong>Thursday</strong>
+                    <span class="set_thursday_hours">9:00 am - 5:30 pm</span></li> 
+                    <li>
+                    <strong>Friday</strong>
+                    <span class="set_friday_hours">9:00 am - 5:30 pm</span></li> 
+                    <li>
+                    <strong>Saturday</strong>
+                    <span class="set_saturday_hours">10:00 am - 2:00 pm</span></li> 
+                    <li>
+                    <strong>Sunday</strong>
+                    <span class="set_sunday_hours">Closed</span></li> 
+                </ul>
+            </div>
+            <div class="location-mobile">
+                <a href="https://www.google.com/maps/place/Niagara+Race+Crafters+Inc/@43.215515,-79.126357,13z/data=!4m5!3m4!1s0x0:0x869530b81fa623d3!8m2!3d43.2155145!4d-79.1263566?hl=en" target="_blank" rel="nofollow">
+                <i class="fas fa-map-marker" aria-hidden="true">&nbsp;</i> </a>
+            </div>
+            <div class="tele-mobile">
+                <a href="tel:905-468-0076">
+                <i class="fas fa-phone" aria-hidden="true">&nbsp;</i> </a>
+            </div>
+        </div>
+</footer>
+</body>
+</html>
